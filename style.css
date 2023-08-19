@@ -7,5 +7,75 @@ font: font-family: 'Martel Sans', sans-serif;
     box-sizing: border-box;
 }
 body{
+    background-color: #070911;
+    background-image: url('imagens/pexels02.jpg');
     font-family: 'Martel Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho{
+    display: flex;
+    margin: 25px;
+}
+
+.imgtitulo{
+    width: 240px;
+    height: 70px;
+}
+
+.formulario{
+    display: flex;   
+    flex-direction: column;
+    width: 420px;
+    height: 520px;
+    margin:  auto;
+    margin-top: 150px;
+    background-color: #1e1e1ed3;
+    border-radius: 15px;
+    
+}
+
+h4{
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.txtalto, .txtbaixo {
+    width: 385px;
+    height: 42px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #515151;   
+    background-color: #515151;
+
+    
+}
+
+.btnentrar{
+    width: 365px;
+    height: 52px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 1px solid #E20000;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #E20000;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.txtalto::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+.txtbaixo::placeholder{
+    color: white;
+    font-size: 17px;
 }
