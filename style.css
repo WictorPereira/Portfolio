@@ -47,7 +47,7 @@ h4{
 .txtalto, .txtbaixo {
     width: 385px;
     height: 42px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-left: 15px;
     border-radius: 10px;
     border: 1px solid #515151;   
@@ -67,11 +67,7 @@ h4{
     color: white;
     background-color: #E20000;
     cursor: pointer;
-    font-weight: 100;
-    text-align: center;
-    
-    
-    
+    font-weight: 100;           
 }
 
 .txtalto::placeholder{
@@ -82,9 +78,4 @@ h4{
 .txtbaixo::placeholder{
     color: white;
     font-size: 17px;
-}
-
-a{
-    text-decoration: none;  
-    
 }
