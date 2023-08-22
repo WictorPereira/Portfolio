@@ -9,6 +9,7 @@ body{
     background-color: #1E1E1E;
     color: white;
 }
+/*CABEÇALHO*/
 
 .lista-topo{
     display: flex;
@@ -25,6 +26,8 @@ body{
     height: 70px;
 }
 
+/*Sobre Mim*/
+
 .conteudo-principal{
     margin-left: 35px;
     margin-right: 35px;
@@ -38,7 +41,7 @@ body{
 .texto-apresentacao{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     
 }
 
@@ -74,7 +77,45 @@ strong{
 }
 
 .gif-animado{
-    width: 50%;
+    width: 60%;
     height:700px;
+}
+
+/*HARD E SOFT SKILLS*/
+
+
+
+.skills-lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.palavra-hard-skills{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.skills-cor{
+    color: #515151;
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+}
+
+.todas-skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.imagem-de-nivel{
+    width: 200px;
+    height: 40px;
 }
 
