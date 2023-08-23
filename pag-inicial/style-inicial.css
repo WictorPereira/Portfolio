@@ -139,3 +139,31 @@ strong{
     display: flex;
     flex-direction: column;
 }
+
+.h5-projetos{
+    color: #787878;
+    font-size: 14px;
+}
+
+.h2-html-css{
+    font-size: 28px;
+}
+
+.ul-projetos{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+
+}
+
+.img-projeto{
+    width: 480px;
+    height: 230px;
+    border-radius: 10px;
+    transition: transform 2s cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
+}
+
+.img-projeto:hover{
+    transform: translateY(-8px);
+}
