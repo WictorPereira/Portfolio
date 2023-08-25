@@ -56,8 +56,7 @@ body{
 .texto-apresentacao{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    
+    width: 40%; 
 }
 
 .titulo-menor{
@@ -74,6 +73,7 @@ body{
     font-weight: 200;
     margin-top: 13px;
 }
+
 strong{
     font-size: 19px;
 }
@@ -216,7 +216,8 @@ strong{
 .roda-pe{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.450);
+    
     height: 40px;
     align-items: center;
 }

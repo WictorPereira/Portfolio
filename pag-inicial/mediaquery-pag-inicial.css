@@ -1,0 +1,169 @@
+@media (max-width: 1000px) {
+    
+    /*Sobre Mim*/
+    .texto-apresentacao{
+        width: 50%;      
+    }
+
+    .titulo-menor{
+        font-size: 16px;
+    }
+
+    .titulo-maior{
+        font-size: 28px;
+    }
+
+    .paragrafo{
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .saiba-mais{
+        font-weight: bold;
+        font-size: 18px;      
+    }
+
+    .redes-sociais{
+        height: 25px;
+        width: 25px;
+    }
+
+    strong{
+        font-size: 15px;
+    }
+
+    .gif-animado{
+        width: 50%;
+    }
+
+    /*HARD E SOFT SKILLS*/
+    .skills-lista{
+        gap: 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    .lista-topo{
+       margin: 25px;
+       gap: 40px;     
+    }
+    
+    .imgtitulo{
+        width: 200px;
+        height: 50px;
+
+    }
+}
+
+@media (max-width: 650px) {
+    /*CABEÇALHO*/
+    .imgtitulo{
+        width: 150px;
+        height: 50px;
+    }
+
+    .lista-topo{
+        margin: 25px;
+        gap: 20px;     
+     }
+
+     .ancoras-pagina{
+        font-size: 16px;
+     }
+
+     /*Sobre Mim*/
+     .conteudo-principal{
+        margin-left: 35px;
+        margin-right: 35px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .texto-apresentacao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .titulo-maior{
+        font-size: 21px;
+    }
+
+    .titulo-menor{
+        font-size: 15px;
+    }
+
+    .gif-animado{
+        width: 100%;
+        height:450px;
+    }
+
+    /*HARD E SOFT SKILLS*/
+    .skills-lista{
+        gap: 40px;
+    }
+
+    .palavra-hard-skills{
+        font-size: 34px;
+        margin-top: 40px;
+    }
+
+    .nivel{
+        font-size: 18px;
+    }
+
+    .imagem-de-nivel{
+        width: 180px;
+        height: 30px;
+    }
+    
+    /*Meus Projetos*/
+
+    .meus-projetos{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 100px;
+        margin-bottom: 35px;
+    }
+
+    .titulo-meus-projetos{
+        font-size: 34px;
+    }
+
+    .h5-projetos{
+        font-size: 12px;
+    }
+
+    .h2-html-css{
+        font-size: 22px;
+    }
+
+    .img-projeto{
+        width: 465px;
+        height: 230px;
+    }
+
+    /*RODAPE*/
+    .roda-pe{
+        display:none
+    }
+}
+
+@media (max-width: 475px) {
+    .lista-topo{
+        margin: 25px;
+        gap: 10px;     
+     }
+
+     .ancoras-pagina{
+        font-size: 11px;
+     }
+      /*CABEÇALHO*/
+    .imgtitulo{
+        width: 120px;
+        
+    }
+}
